@@ -1,0 +1,25 @@
+# Example - Fill your MySQL details here
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=yourpassword
+DB_NAME=yourdatabase
+
+
+-----------------------------------------------------------------------
+DB stands for Database
+------------------------------------------------------------------
+
+📌 Note for Setup
+-------------------------
+🔄 Rename the file 00_.env.example to .env
+🛠️ Then, update the following fields with your own MySQL credentials:
+
+DB_HOST → your MySQL host (usually localhost)
+
+DB_USER → your MySQL username (e.g., root)
+
+DB_PASSWORD → your MySQL password
+
+DB_NAME → your target database name
+
+🧱 If the database doesn't exist, create it manually in MySQL
