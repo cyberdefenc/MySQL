@@ -1,0 +1,30 @@
+📂  Title: Python Database Operations using MySQL
+
+🧠 Purpose:
+This Python module demonstrates basic to intermediate MySQL database operations 
+like connecting to the DB, updating tables, user-defined updates, 
+and fetching data in various ways using `mysql.connector`.
+
+📚 Requirements:
+- Mysql-connector-python (Install using: pip install mysql-connector-python)
+
+📌 Function Index:
+P1. Connect_db()        ➤ Establish connection to the MySQL database.
+P2. Update_table()      ➤ Predefined update operation in a table.
+P3. User_defined_update() ➤ Update rows dynamically based on user input.
+P4. Notify_not_updated() ➤ Notify user if no records were updated.
+P5. Fetch_one()         ➤ Fetch one record at a time.
+P6. Fetch_many()        ➤ Fetch specific number of records.
+P7. Fetch_all()         ➤ Fetch all records from a table.
+
+
+---------------
+MY SQL COMMANDS
+---------------
+show databses;
+use databse_name;
+show tables;
+select * from table_name;
+
+
+

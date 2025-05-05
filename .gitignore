@@ -1,0 +1,23 @@
+# Ignore all .env files in every subfolder
+**/.env
+
+# Optional: ignore Python cache
+**/__pycache__/
+**/*.py[cod]
+
+# Optional: Java class files
+**/*.class
+
+# Optional: Node modules (if any JS/Node work)
+**/node_modules/
+
+# Optional: IDE/editor files
+**/.vscode/
+**/.idea/
+
+# Ignore logs or dumps
+**/*.log
+**/*.sql
+
+# MY Personal Credentials Here
+Personal_connect.py
